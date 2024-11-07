@@ -8,13 +8,6 @@
         <img alt="Stylized logo that says Jordan" src="logo.png">
     </picture>
 </a>
-<div id="toc" align="center">
-    <ul align="center" style="list-style: none;">
-        <summary>
-          <h2>Python, Java, C#</h2>
-        </summary>
-    </ul>
-</div>
 <p align="center">
     <picture>
         <!-- Dark Stats -->
