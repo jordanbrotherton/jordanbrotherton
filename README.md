@@ -1,16 +1,30 @@
-## Hi there 👋
+<p align="center">
+    <a href="https://jordanbrotherton.github.io/">
+        <picture>
+            <!--Dark Logo-->
+            <source media="(prefers-color-scheme: dark)" srcset="logo_dark.svg">
 
-<!--
-**jordanbrotherton/jordanbrotherton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+            <!--Light Logo-->
+            <source media="(prefers-color-scheme: light)" srcset="logo_light.svg">
 
-Here are some ideas to get you started:
+            <!--Fallback for older browsers-->
+            <img alt="Stylized logo that says 'Jordan'" src="logo.png">
+        </picture>
+    </a>
+    <picture>
+        <!--Dark Stats-->
+        <source
+            srcset="https://github-readme-stats.vercel.app/api?username=jordanbrotherton&show_icons=true&theme=dark&bg_color=00000000&hide_border=true&hide_title=true"
+            media="(prefers-color-scheme: dark)"
+        />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        <!--Light Stats-->
+        <source
+            srcset="https://github-readme-stats.vercel.app/api?username=jordanbrotherton&show_icons=true&bg_color=00000000&hide_border=true&hide_title=true"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+        />
+
+        <!--Fallback Stats-->
+        <img src="https://github-readme-stats.vercel.app/api?username=jordanbrotherton&show_icons=true&hide_border=true&hide_title=true" />
+    </picture>
+</p>
